@@ -2,6 +2,7 @@ import { NextFunction, Request, Response } from "express";
 import {
   createEvent,
   deleteEvent,
+  getEventById,
   getEvents,
   updateEvent,
 } from "../services/event.service";
@@ -71,6 +72,22 @@ export const deleteEventController = async (
     const user = req.user as JwtPayloadI;
     await deleteEvent(id, user);
     return res.status(204).send();
+  } catch (error) {
+    next(error);
+  }
+};
+
+export const getEventByIdController = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  try {
+    const id = req.params.id;
+    const event = await getEventById(id);
+    return res.status(200).json({
+      event,
+    });
   } catch (error) {
     next(error);
   }
