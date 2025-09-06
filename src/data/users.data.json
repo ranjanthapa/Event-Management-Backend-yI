@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": 1757132169091,
+    "email": "user1@example.com",
+    "password": "$2b$10$DXIcxpv997i0I8OnTz6xA.7paEMvC2wVs9tOdENSLdCps9dyDWYDW",
+    "role": "user"
+  },
+  {
+    "id": 1757142389245,
+    "email": "user11@example.com",
+    "password": "$2b$10$3CgxAldKjpj6iqz4a8cgEOFjujkmQZ3YZU/0M2tFpAT0Mv8psGYYe",
+    "role": "organizer"
+  }
+]

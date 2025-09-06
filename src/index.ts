@@ -1,10 +1,15 @@
 import express from "express";
 import authRouter from "./routes/auth.route";
-
+import { errorHandler } from "./middlewares/error.middleware";
+import eventRouter from "./routes/event.route";
 
 const app  = express();
 app.use(express.json())
 app.use('/api/auth', authRouter);
+app.use('/api/events', eventRouter);
+
+app.use(errorHandler);
+
 
 const PORT : number = 5000;
 app.listen(PORT, ()=>{

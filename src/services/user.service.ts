@@ -1,12 +1,9 @@
 import type { User } from "../interfaces/user.interface";
 import fs from "fs/promises";
-import { join, dirname } from "path";
-import { fileURLToPath } from "url";
+import { join } from "path";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 
-const userFilePath = join(__dirname, "../data/users.json");
+const userFilePath = join(__dirname, "../data/users.data.json");
 
 export const allUsers = async (): Promise<User[]> => {
   const data = await fs.readFile(userFilePath, "utf-8"); 

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "evt123",
+    "title": "Tech Hackathon 2025",
+    "description": "A 48-hour hackathon for developers and designers.",
+    "organizer": "Tech Club",
+    "location": "Kathmandu University",
+    "startDate": "2025-09-15T09:00:00.000Z",
+    "endDate": "2025-09-17T09:00:00.000Z",
+    "createdBy": 1757142389245
+  },
+  {
+    "id": "evt123",
+    "title": "Tech Hackathon 2025",
+    "description": "A 48-hour hackathon for developers and designers.",
+    "organizer": "Tech Club",
+    "location": "Kathmandu University",
+    "startDate": "2025-09-15T09:00:00.000Z",
+    "endDate": "2025-09-17T09:00:00.000Z",
+    "createdBy": 1757142389245
+  },
+  {
+    "id": "369dba7e-aae5-4945-9ac3-abaf07689924",
+    "title": "Tech Hackathon 2025",
+    "description": "A 48-hour hackathon for developers and designers.",
+    "organizer": "Tech Club",
+    "location": "Kathmandu University",
+    "startDate": "2025-09-15T09:00:00.000Z",
+    "endDate": "2025-09-17T09:00:00.000Z",
+    "createdBy": 1757142389245
+  }
+]
