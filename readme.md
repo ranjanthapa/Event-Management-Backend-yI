@@ -75,6 +75,8 @@ JWT_SECRET=secret key
 }
 ```
 
+![alt text](image.png)
+
 
 ### 2. Login
 
@@ -98,6 +100,7 @@ JWT_SECRET=secret key
     "token": "jwt_token"
 }
 ```
+![alt text](image-1.png)
 
 
 
@@ -135,7 +138,7 @@ JWT_SECRET=secret key
         
     ]
 }
-```
+```![alt text](image-2.png)
 
 
 
@@ -199,7 +202,7 @@ JWT_SECRET=secret key
 }
 ```
 
-
+![alt text](image-3.png)
 
 
 ### 6. Delete event by event id
@@ -216,6 +219,6 @@ JWT_SECRET=secret key
 
 
 
-
+![alt text](image-4.png)
 
 
